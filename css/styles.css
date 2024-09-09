@@ -1,10 +1,4 @@
-a {
-  text-decoration: none;
-}
 
-ul {
-  list-style-type: none;
-}
 
 /* _____________________H E A D E R______________________ */
 
@@ -434,3 +428,10 @@ aside {
 }
 
 /* #endregion FOOTER */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
