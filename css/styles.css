@@ -1,4 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto";
+}
 
 /* _____________________H E A D E R______________________ */
 
@@ -11,6 +16,8 @@ header {
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 1;
+  background: #fff;
 }
 
 header .row {
@@ -143,14 +150,14 @@ form {
 /* #region aside */
 
 aside {
-  position: fixed;
+  position: absolute;
   top: 56px;
-  bottom: 0px;
   left: 0px;
+  bottom: 0;
   height: 100%;
   min-height: 838px;
   width: 240px;
-  
+  overflow: auto;
 }
 
 .home-shorts-subscriptions {
@@ -185,11 +192,11 @@ aside {
   display: flex;
   align-items: center;
   padding: 8px 12px;
-  gap: 23px;
+  gap: 22px;
   color: #0F0F0F;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
   border-radius: 10px;
   transition: all 0.2s;
@@ -209,7 +216,7 @@ aside {
 
 .p-sign-in p {
   color: #0F0F0F;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
