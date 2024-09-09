@@ -1,0 +1,342 @@
+
+/* _____________________H E A D E R______________________ */
+
+/* #region HEADER */
+
+header {
+  min-height: 56px;
+}
+
+header .row {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  min-height: 56px;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+.div-menu-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.div-menu-logo button {
+  border: 0;
+  background: transparent;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 660px;
+  gap: 10px;
+}
+
+.form-control {
+  border-radius: 40px 0 0 40px;
+  max-width: 536px;
+  height: 40px;
+  color: #888;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.input-group > .form-control:focus, .input-group > .form-select:focus, .input-group > .form-floating:focus-within{
+  z-index: 0;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-radius: 0px 40px 40px 0px;
+  border: 1px solid #D3D3D3;
+  background: #F8F8F8;
+  width: 64px;
+  height: 40px;
+}
+
+.vois {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.menu-in {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu {
+  background: transparent;
+  border: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-in a {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  height: 36px;
+  width: 96.6px;
+  color: #065FD4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.search-none {
+  background: transparent;
+  border: 0;
+  display: none;
+}
+
+@media (max-width: 600px) {
+
+  form {
+    display: none;
+  }
+
+  .search-none {
+    display: block;
+  }
+
+}
+
+@media (max-width: 534px) {
+
+  
+
+}
+
+
+/* #endregion HEADER */
+
+
+
+
+/* _______________________H E R O________________________ */
+
+/* #region HERO */
+
+
+
+
+
+
+
+@media (max-width: 1080px) {
+
+
+
+}
+
+@media (max-width: 850px) {
+
+
+
+}
+
+
+/* #endregion HERO */
+
+
+
+
+/* ________________________T W O_________________________ */
+
+/* #region TWO */
+
+
+
+
+
+
+@media (max-width: 1244px) {
+
+
+
+}
+
+@media (max-width: 1080px) {
+
+
+
+}
+
+
+/* #endregion TWO */
+
+
+
+
+/* ______________________T H R E E_______________________ */
+
+/* #region THREE */
+
+
+
+
+
+
+
+@media (max-width: 1278px) {
+
+
+
+}
+
+@media (max-width: 770px) {
+
+
+
+}
+
+/* #endregion THREE */
+
+
+
+
+/* _______________________F O U R________________________ */
+
+/* #region FOUR */
+
+
+
+
+
+@media (max-width: 1130px) {
+
+
+  
+}
+
+@media (max-width: 642px) {
+
+
+  
+}
+
+/* #endregion FOUR */
+
+
+
+
+/* _______________________F I V E________________________ */
+
+/* #region five */
+
+
+
+
+
+
+@media (max-width: 925px) {
+
+
+  
+}
+/* #endregion five */
+
+
+
+
+/* ________________________S I X_________________________ */
+
+/* #region SIX */
+
+
+
+
+
+
+@media (max-width: 965px) {
+
+
+
+}
+
+
+/* #endregion SIX */
+
+
+
+
+/* ________________________F O R M_______________________ */
+
+/* #region FORM */
+
+
+
+
+
+
+
+/* #endregion FORM */
+
+
+
+
+/* _______________________E I G H T______________________ */
+
+/* #region EIGHT */
+
+
+
+
+
+
+@media (max-width: 1185px) {
+
+
+
+}
+
+@media (max-width: 620px) {
+
+
+
+}
+
+/* #endregion EIGHT */
+
+
+
+
+/* _______________________F O O T E R____________________ */
+
+/* #region FOOTER */
+
+
+
+
+
+
+@media (max-width: 1185px) {
+
+
+
+}
+
+@media (max-width: 620px) {
+
+
+
+}
+
+/* #endregion FOOTER */
