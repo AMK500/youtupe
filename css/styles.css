@@ -163,7 +163,28 @@ aside {
   bottom: 0;
   min-height: 838px;
   width: 240px;
-  overflow: auto;
+  padding-right: 7px;
+}
+
+aside:hover{
+  overflow-y: scroll;
+  padding-right: 0;
+}
+
+aside::-webkit-scrollbar {
+  width: 7px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 .home-shorts-subscriptions {
