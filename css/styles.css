@@ -312,6 +312,12 @@ aside {
   gap: 12px;
 }
 
+.flex-text-video img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
 .flex-text-video h4 {
   color: #0F0F0F;
   font-size: 16px;
